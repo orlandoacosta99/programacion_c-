@@ -1,0 +1,13 @@
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\bin\Debug\netcoreapp3.1\figuras_geometricas.exe
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\bin\Debug\netcoreapp3.1\figuras_geometricas.deps.json
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\bin\Debug\netcoreapp3.1\figuras_geometricas.runtimeconfig.json
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\bin\Debug\netcoreapp3.1\figuras_geometricas.runtimeconfig.dev.json
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\bin\Debug\netcoreapp3.1\figuras_geometricas.dll
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\bin\Debug\netcoreapp3.1\figuras_geometricas.pdb
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.csprojAssemblyReference.cache
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.AssemblyInfoInputs.cache
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.AssemblyInfo.cs
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.csproj.CoreCompileInputs.cache
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.dll
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.pdb
+C:\Users\orlan\source\repos\figuras_geometricas\figuras_geometricas\obj\Debug\netcoreapp3.1\figuras_geometricas.genruntimeconfig.cache

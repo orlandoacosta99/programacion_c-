@@ -1,0 +1,13 @@
+C:\Users\orlan\source\repos\time\time\bin\Debug\netcoreapp3.1\time.exe
+C:\Users\orlan\source\repos\time\time\bin\Debug\netcoreapp3.1\time.deps.json
+C:\Users\orlan\source\repos\time\time\bin\Debug\netcoreapp3.1\time.runtimeconfig.json
+C:\Users\orlan\source\repos\time\time\bin\Debug\netcoreapp3.1\time.runtimeconfig.dev.json
+C:\Users\orlan\source\repos\time\time\bin\Debug\netcoreapp3.1\time.dll
+C:\Users\orlan\source\repos\time\time\bin\Debug\netcoreapp3.1\time.pdb
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.csprojAssemblyReference.cache
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.AssemblyInfoInputs.cache
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.AssemblyInfo.cs
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.csproj.CoreCompileInputs.cache
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.dll
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.pdb
+C:\Users\orlan\source\repos\time\time\obj\Debug\netcoreapp3.1\time.genruntimeconfig.cache
