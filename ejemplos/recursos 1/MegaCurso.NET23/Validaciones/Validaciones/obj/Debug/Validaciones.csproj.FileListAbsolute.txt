@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\bin\Debug\Validaciones.exe.config
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\bin\Debug\Validaciones.exe
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\bin\Debug\Validaciones.pdb
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\obj\Debug\Validaciones.fMain.resources
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\obj\Debug\Validaciones.Properties.Resources.resources
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\obj\Debug\Validaciones.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\obj\Debug\Validaciones.exe
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\obj\Debug\Validaciones.pdb
+c:\docs\MegaCurso.NET23\Validaciones\Validaciones\obj\Debug\Validaciones.csprojResolveAssemblyReference.cache

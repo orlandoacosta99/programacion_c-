@@ -1,0 +1,17 @@
+﻿@model CompraloTo.ViewModels.ActivationEmailViewModel
+@{
+    ViewBag.Title = "Registro de nuevo usuario";
+}
+
+@if (!string.IsNullOrEmpty(Model.successMessage))
+{
+    <div class="alert alert-success">
+        @Model.successMessage
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        @Model.errorMessage
+    </div>
+}

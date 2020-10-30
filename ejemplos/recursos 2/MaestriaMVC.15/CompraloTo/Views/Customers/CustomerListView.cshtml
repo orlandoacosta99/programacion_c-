@@ -1,0 +1,132 @@
+﻿@model CompraloTo.ViewModels.CustomerListViewModel
+@{
+    ViewBag.Title = "CustomerListView";
+}
+
+
+<a class="btn btn-primary btn-sm" href="/customers/create">
+    Crear nuevo cliente <i class="fa fa-plus"></i>
+</a>
+
+@using (Html.BeginForm("Index", "Customers", FormMethod.Get))
+{
+    @Html.HiddenFor(m => m.sortField)
+    @Html.HiddenFor(m => m.sortDir)
+
+    @Html.TextBoxFor(m => m.searchText, new { @class= "form-control" })
+
+    <input type="submit" value="Buscar" />
+
+}
+
+
+<table class="table table-bordered table-hover table-striped">
+
+    <thead>
+        <tr>
+            <th style="width:200px;"></th>
+            
+            <th>
+                <a href="/customers?sortField=name@(Model.sortField == "name" && Model.sortDir == "asc" ? "&sortDir=desc" : "&sortDir=asc")">
+                    Nombre
+
+                    @if (Model.sortField == "name")
+                    {
+                        if (Model.sortDir == "asc")
+                        {
+                            <i class="fa fa-arrow-up"></i>
+                        }
+                        else if (Model.sortDir == "desc")
+                        {
+                            <i class="fa fa-arrow-down"></i>
+                        }
+                    }
+                </a>
+            </th>
+            
+            <th>
+                <a href="/customers?sortField=lastname@(string.Compare(Model.sortField, "lastName", true) == 0 && Model.sortDir == "asc" ? "&sortDir=desc" : "&sortDir=asc")">
+                Apellidos
+
+                @if (string.Compare(Model.sortField, "lastName", true) == 0)
+                {
+                    if (Model.sortDir == "asc")
+                    {
+                        <i class="fa fa-arrow-up"></i>
+                    }
+                    else if (Model.sortDir == "desc")
+                    {
+                        <i class="fa fa-arrow-down"></i>
+                    }
+                }
+                </a>
+            </th>
+
+            <th>
+                <a href="/customers?sortField=phone@(Model.sortField == "phone" && Model.sortDir == "asc" ? "&sortDir=desc" : "&sortDir=asc")">
+                Teléfono
+
+                @if (Model.sortField == "phone")
+                {
+                    if (Model.sortDir == "asc")
+                    {
+                        <i class="fa fa-arrow-up"></i>
+                    }
+                    else if (Model.sortDir == "desc")
+                    {
+                        <i class="fa fa-arrow-down"></i>
+                    }
+                }            
+                </a>
+            </th>
+            <th>
+                <a href="/customers?sortField=email@(Model.sortField == "email" && Model.sortDir == "asc" ? "&sortDir=desc" : "&sortDir=asc")">
+                Email
+            
+                @if (Model.sortField == "email")
+                {
+                    if (Model.sortDir == "asc")
+                    {
+                    <i class="fa fa-arrow-up"></i>
+                    }
+                    else if (Model.sortDir == "desc")
+                    {
+                    <i class="fa fa-arrow-down"></i>
+                    }
+                }
+                </a>
+            </th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var customer in Model.Customers)
+        {
+            <tr>
+
+                <td>
+
+                    <a class="btn btn-primary btn-xs" href="/customers/edit/@customer.ID">
+                        Edit <i class="fa fa-pencil"></i>
+                    </a>
+
+                    &nbsp;
+                    @Html.ActionLink("Eliminar", "Delete", new { id = customer.ID }, new { @class = "btn btn-xs btn-danger" })
+
+                </td>
+
+                <td>@customer.name</td>
+                <td>@customer.lastName</td>
+                <td>@customer.phone</td>
+                <td>@customer.email</td>
+
+            </tr>
+
+        }
+
+    </tbody>
+
+
+</table>

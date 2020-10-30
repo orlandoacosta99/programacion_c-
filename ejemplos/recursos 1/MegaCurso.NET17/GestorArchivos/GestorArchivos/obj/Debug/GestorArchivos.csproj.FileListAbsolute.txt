@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\bin\Debug\GestorArchivos.exe.config
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\bin\Debug\GestorArchivos.exe
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\bin\Debug\GestorArchivos.pdb
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\obj\Debug\GestorArchivos.csprojResolveAssemblyReference.cache
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\obj\Debug\GestorArchivos.fMain.resources
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\obj\Debug\GestorArchivos.Properties.Resources.resources
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\obj\Debug\GestorArchivos.csproj.GenerateResource.Cache
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\obj\Debug\GestorArchivos.exe
+C:\docs\MegaCurso.NET17\GestorArchivos\GestorArchivos\obj\Debug\GestorArchivos.pdb

@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\bin\Debug\TareasMegaCurso.exe.config
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\bin\Debug\TareasMegaCurso.exe
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\bin\Debug\TareasMegaCurso.pdb
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\obj\Debug\TareasMegaCurso.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\obj\Debug\TareasMegaCurso.Properties.Resources.resources
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\obj\Debug\TareasMegaCurso.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\obj\Debug\TareasMegaCurso.exe
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\obj\Debug\TareasMegaCurso.pdb
+c:\docs\MegaCurso.NET05\TareasMegaCurso\TareasMegaCurso\obj\Debug\TareasMegaCurso.fMain.resources

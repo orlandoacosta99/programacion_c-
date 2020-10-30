@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\bin\Debug\Enriqueciendo.exe.config
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\bin\Debug\Enriqueciendo.exe
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\bin\Debug\Enriqueciendo.pdb
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\obj\Debug\Enriqueciendo.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\obj\Debug\Enriqueciendo.Form1.resources
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\obj\Debug\Enriqueciendo.Properties.Resources.resources
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\obj\Debug\Enriqueciendo.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\obj\Debug\Enriqueciendo.exe
+c:\docs\MegaCurso.NET13\Enriqueciendo\Enriqueciendo\obj\Debug\Enriqueciendo.pdb

@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\bin\Debug\IntroLinq.exe.config
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\bin\Debug\IntroLinq.exe
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\bin\Debug\IntroLinq.pdb
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\obj\Debug\IntroLinq.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\obj\Debug\IntroLinq.fMain.resources
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\obj\Debug\IntroLinq.Properties.Resources.resources
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\obj\Debug\IntroLinq.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\obj\Debug\IntroLinq.exe
+c:\docs\MegaCurso.NET24\IntroLinq\IntroLinq\obj\Debug\IntroLinq.pdb

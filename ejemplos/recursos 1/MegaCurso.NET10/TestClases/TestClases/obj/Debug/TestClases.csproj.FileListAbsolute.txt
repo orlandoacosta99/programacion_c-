@@ -1,0 +1,6 @@
+c:\docs\MegaCurso.NET10\TestClases\TestClases\bin\Debug\TestClases.exe.config
+c:\docs\MegaCurso.NET10\TestClases\TestClases\bin\Debug\TestClases.exe
+c:\docs\MegaCurso.NET10\TestClases\TestClases\bin\Debug\TestClases.pdb
+c:\docs\MegaCurso.NET10\TestClases\TestClases\obj\Debug\TestClases.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET10\TestClases\TestClases\obj\Debug\TestClases.exe
+c:\docs\MegaCurso.NET10\TestClases\TestClases\obj\Debug\TestClases.pdb

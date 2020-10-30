@@ -1,0 +1,6 @@
+c:\docs\MegaCurso.NET04\Test04\Test04\bin\Debug\Test04.exe.config
+c:\docs\MegaCurso.NET04\Test04\Test04\bin\Debug\Test04.exe
+c:\docs\MegaCurso.NET04\Test04\Test04\bin\Debug\Test04.pdb
+c:\docs\MegaCurso.NET04\Test04\Test04\obj\Debug\Test04.exe
+c:\docs\MegaCurso.NET04\Test04\Test04\obj\Debug\Test04.pdb
+c:\docs\MegaCurso.NET04\Test04\Test04\obj\Debug\Test04.csprojResolveAssemblyReference.cache

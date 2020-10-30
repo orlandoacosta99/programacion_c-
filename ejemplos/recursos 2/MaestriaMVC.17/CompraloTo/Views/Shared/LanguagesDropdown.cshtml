@@ -1,0 +1,18 @@
+﻿@model CompraloTo.ViewModels.LanguagesDropdownViewModel
+
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <img src="~/public/img/flags/@(Model.CurrentLanguage).png" style="max-width:20px;" />
+        <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+
+        @foreach(string langCode in Model.Languages)
+        { 
+        <li><a href="~/languageSelector?langCode=@langCode">
+                <img src="~/public/img/flags/@(langCode).png" style="max-width:20px;" />
+            </a>
+        </li>
+        }
+    </ul>
+</li>

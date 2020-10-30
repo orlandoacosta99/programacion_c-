@@ -1,0 +1,18 @@
+﻿@model TasksManager.ViewModels.TaskViewModel
+
+
+
+
+@if(!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div style="color:red;">@Model.ErrorMessage</div>
+}
+
+
+@if (Model.Task != null)
+{
+    <div> ID : @Model.Task.ID </div>
+    <div> Nombre : @Model.Task.Name </div>
+    <div> Fecha de creación : @Model.Task.CreateDate </div>
+    <div> Fecha límite : @Model.Task.DueDate </div>
+}

@@ -1,0 +1,13 @@
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\DbAvanzado.exe.config
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\DbAvanzado.exe
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\DbAvanzado.pdb
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\obj\Debug\DbAvanzado.fMain.resources
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\obj\Debug\DbAvanzado.Properties.Resources.resources
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\obj\Debug\DbAvanzado.csproj.GenerateResource.Cache
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\obj\Debug\DbAvanzado.exe
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\obj\Debug\DbAvanzado.pdb
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\EntityFramework.dll
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\EntityFramework.SqlServer.dll
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\EntityFramework.xml
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\bin\Debug\EntityFramework.SqlServer.xml
+C:\docs\MegaCurso.NET29\DbAvanzado\DbAvanzado\obj\Debug\DbAvanzado.csprojResolveAssemblyReference.cache

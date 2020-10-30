@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\bin\Debug\BasesDatos.exe.config
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\bin\Debug\BasesDatos.exe
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\bin\Debug\BasesDatos.pdb
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\obj\Debug\BasesDatos.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\obj\Debug\BasesDatos.fMain.resources
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\obj\Debug\BasesDatos.Properties.Resources.resources
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\obj\Debug\BasesDatos.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\obj\Debug\BasesDatos.exe
+c:\docs\MegaCurso.NET28\BasesDatos\BasesDatos\obj\Debug\BasesDatos.pdb

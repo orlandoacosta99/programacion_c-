@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\bin\Debug\Interfaces.exe.config
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\obj\Debug\Interfaces.fMain.resources
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\obj\Debug\Interfaces.Properties.Resources.resources
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\obj\Debug\Interfaces.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\obj\Debug\Interfaces.exe
+c:\docs\MegaCurso.NET25\Interfaces\Interfaces\obj\Debug\Interfaces.pdb

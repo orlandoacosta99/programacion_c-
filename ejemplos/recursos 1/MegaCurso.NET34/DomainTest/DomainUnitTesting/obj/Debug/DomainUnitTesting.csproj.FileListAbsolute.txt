@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\bin\Debug\DomainUnitTesting.dll
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\bin\Debug\DomainUnitTesting.pdb
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\bin\Debug\DomainTest.dll
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\bin\Debug\DomainTest.pdb
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\obj\Debug\DomainUnitTesting.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\obj\Debug\DomainUnitTesting.dll
+c:\docs\MegaCurso.NET34\DomainTest\DomainUnitTesting\obj\Debug\DomainUnitTesting.pdb

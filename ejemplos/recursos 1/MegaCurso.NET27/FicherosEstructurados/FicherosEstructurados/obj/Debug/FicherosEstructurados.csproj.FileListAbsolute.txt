@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\bin\Debug\FicherosEstructurados.exe.config
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\bin\Debug\FicherosEstructurados.exe
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\bin\Debug\FicherosEstructurados.pdb
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\obj\Debug\FicherosEstructurados.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\obj\Debug\FicherosEstructurados.fMain.resources
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\obj\Debug\FicherosEstructurados.Properties.Resources.resources
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\obj\Debug\FicherosEstructurados.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\obj\Debug\FicherosEstructurados.exe
+c:\docs\MegaCurso.NET27\FicherosEstructurados\FicherosEstructurados\obj\Debug\FicherosEstructurados.pdb

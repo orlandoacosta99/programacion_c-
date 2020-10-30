@@ -1,0 +1,117 @@
+﻿@* FULL VIEW - Products *@
+@model CompraloTo.ViewModels.ProductListViewModel
+
+@{
+    ViewBag.Title = "Products";
+}
+
+
+<p>
+    @Html.ActionLink("Nuevo producto", nameof(CompraloTo.Controllers.ProductsController.Create), "Products")
+</p>
+
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="form-horizontal">
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.categoryID, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-4">
+                        @Html.DropDownListFor(model => model.categoryID, Model.categories,
+                            "Todas las categorías", new { @class = "form-control", id = "categories-dropdown" })
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div id="products-container">
+        @Html.Partial("ProductsListView")
+    </div>
+
+
+</div>
+
+
+@section PageScripts
+{
+    <script type="text/javascript">
+
+        //when categories change
+        $('#categories-dropdown').change(function () {
+
+            $.ajax({
+                url: '/products/list',
+                contentType: 'application/html; charset=utf-8',
+                type: 'GET',
+                data: { categoryID: this.value },
+                dataType: 'html'
+            })
+            .success(function (result) {
+                $('#products-container').html(result);
+            })
+            .error(function (xhr, status) {
+                alert(status);
+            });
+
+        });
+
+
+        //when user clicks on add/remove to/from shopping cart
+        $('#products-container').on('click', 'div.btn', function () {
+
+            var $this = $(this);
+            var productID = $this.siblings("input[name=product-id]").val();
+            var addField = $this.siblings("input[name=add-to-cart]");
+            var add = addField.val() == 1;
+
+            $this.children('i').removeClass('fa-plus fa-minus').addClass('fa-refresh fa-spin');
+
+            $.ajax({
+                url: add ? '/cart/add' : '/cart/remove',
+                type: 'POST',
+                data: { productID: productID },
+            })
+            .success(function (result) {
+                
+                //update hidden field value
+                addField.val(add ? '0' : '1');
+
+                //set button text
+                $this.children('span').html(add ? 'Eliminar de la cesta' : 'Añadir a la cesta');
+
+
+                $this.children('i').removeClass('fa-refresh fa-spin');
+                if (add) {
+                    $this.children('i').removeClass('fa-plus').addClass('fa-minus');
+                } else {
+                    $this.children('i').removeClass('fa-minus').addClass('fa-plus');
+                }
+
+                //update shopping cart count
+                $('#cart-count').html(result);
+
+            })
+            .error(function (xhr, status) {
+
+                $this.children('i').removeClass('fa-refresh fa-spin');
+
+                alert(status);
+            });
+
+        });
+
+
+    </script>
+
+}

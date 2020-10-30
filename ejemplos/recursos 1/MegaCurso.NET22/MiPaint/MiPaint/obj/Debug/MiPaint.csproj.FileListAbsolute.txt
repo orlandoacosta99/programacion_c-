@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\bin\Debug\MiPaint.exe.config
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\bin\Debug\MiPaint.exe
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\bin\Debug\MiPaint.pdb
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\obj\Debug\MiPaint.fMain.resources
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\obj\Debug\MiPaint.Properties.Resources.resources
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\obj\Debug\MiPaint.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\obj\Debug\MiPaint.exe
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\obj\Debug\MiPaint.pdb
+c:\docs\MegaCurso.NET22\MiPaint\MiPaint\obj\Debug\MiPaint.csprojResolveAssemblyReference.cache

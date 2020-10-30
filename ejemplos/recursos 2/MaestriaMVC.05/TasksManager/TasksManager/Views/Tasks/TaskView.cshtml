@@ -1,0 +1,98 @@
+﻿@model TasksManager.ViewModels.TaskViewModel
+
+
+
+<div style="line-height:30px;">
+    <a href="/tasks">Lista de tareas</a>
+</div>
+
+
+
+@if(!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div style="color:red;">@Model.ErrorMessage</div>
+}
+
+@if (!string.IsNullOrEmpty(Model.SucessMessage))
+{
+    <div style="color:green;">@Model.SucessMessage</div>
+}
+
+
+@if (Model.Task != null)
+{
+
+    using (Html.BeginForm())
+    {
+
+        if (Model.Task.ID != 0)
+        {
+            <div>
+
+                @Html.LabelFor(m => m.Task.ID)
+                @Html.TextBoxFor(m => m.Task.ID)
+
+            </div>
+
+
+            <div>
+
+                @Html.LabelFor(m => m.Task.CreateDate)
+                @Html.TextBoxFor(m => m.Task.CreateDate)
+
+            </div>
+        }
+
+        <div>
+
+            @Html.LabelFor(m => m.Task.DueDate)
+            @Html.TextBoxFor(m => m.Task.DueDate)
+
+        </div>
+
+        <div>
+
+            @Html.LabelFor(m => m.Task.Name)
+            @Html.TextBoxFor(m => m.Task.Name)
+
+        </div>
+
+
+        <div>
+            <input type="submit" value="Guardar tarea" />
+        </div>
+
+
+    }
+
+
+    @*<form action="" method="post">
+
+
+        <div>
+            <label>ID</label>
+            <input type="text" name="ID" readonly="readonly" value="@Model.Task.ID" />
+        </div>
+
+        <div>
+            <label>Fecha creación</label>
+            <input type="text" name="CreateDate" readonly="readonly" value="@Model.Task.CreateDate" />
+        </div>
+
+        <div>
+            <label>Fecha vencimiento</label>
+            <input type="text" name="DueDate" value="@Model.Task.DueDate" />
+        </div>
+
+        <div>
+            <label>Nombre</label>
+            <input type="text" name="Name" value="@Model.Task.Name" />
+        </div>
+
+        <div>
+            <input type="submit" value="Guardar tarea" />
+        </div>
+
+    </form>*@
+
+}

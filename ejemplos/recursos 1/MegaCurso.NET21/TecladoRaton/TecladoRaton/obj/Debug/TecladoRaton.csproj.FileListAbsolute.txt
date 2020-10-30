@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\bin\Debug\TecladoRaton.exe.config
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\bin\Debug\TecladoRaton.exe
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\bin\Debug\TecladoRaton.pdb
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\obj\Debug\TecladoRaton.fMain.resources
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\obj\Debug\TecladoRaton.Properties.Resources.resources
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\obj\Debug\TecladoRaton.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\obj\Debug\TecladoRaton.exe
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\obj\Debug\TecladoRaton.pdb
+c:\docs\MegaCurso.NET21\TecladoRaton\TecladoRaton\obj\Debug\TecladoRaton.fMouse.resources

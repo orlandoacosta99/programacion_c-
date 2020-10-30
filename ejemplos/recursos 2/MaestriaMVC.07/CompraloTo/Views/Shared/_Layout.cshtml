@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    @Html.Partial("HeadView")
+
+</head>
+
+<body>
+
+    @* Header Nav bar *@
+    @Html.Partial("NavHeaderView")
+
+
+    @* Main container *@
+    <div class="container body-content">
+
+
+        @RenderBody()
+
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - LosMegaCursos.com - CompraloTó</p>
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>

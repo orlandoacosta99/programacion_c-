@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\bin\Debug\LosGenerics.exe.config
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\bin\Debug\LosGenerics.exe
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\bin\Debug\LosGenerics.pdb
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\obj\Debug\LosGenerics.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\obj\Debug\LosGenerics.fMain.resources
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\obj\Debug\LosGenerics.Properties.Resources.resources
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\obj\Debug\LosGenerics.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\obj\Debug\LosGenerics.exe
+c:\docs\MegaCurso.NET26\LosGenerics\LosGenerics\obj\Debug\LosGenerics.pdb

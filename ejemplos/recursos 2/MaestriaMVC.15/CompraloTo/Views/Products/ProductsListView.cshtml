@@ -1,0 +1,61 @@
+﻿@* PARTIAL VIEW - List of Products *@
+@model CompraloTo.ViewModels.ProductListViewModel
+
+@{
+
+    int columns = 4;
+    int column = 1;
+
+}
+
+
+@for (int i = 0; i < Model.products.Count; i++)
+{
+    var product = Model.products[i];
+
+    if(column == 1)
+    {
+        @Html.Raw("<div class=\"row\">")
+    }
+
+    @* Print product thumbnail *@
+    <div class="col-md-3">
+
+        <a href="/products/details/@product.ID">
+            <div class="thumbnail">
+
+                <div class="bg-info clearfix">
+                    @if (product.hightlighted)
+                    {
+                        <i class="fa fa-lg fa-star"></i>
+                    }
+                    <span>@product.name</span>
+                </div>
+                <img src="~/public/img/products/@(product.ID).jpg" style="max-height:100px;" />
+            </div>
+        </a>
+
+        <input type="hidden" name="add-to-cart" value="1" />
+        <input type="hidden" name="product-id" value="@product.ID" />
+        
+        <div class="btn btn-sm btn-primary btn-block">
+            <i class="fa fa-plus"></i>
+            <span>Añadir a la cesta</span>
+        </div>
+
+    </div>
+
+
+    if (column == columns || i == Model.products.Count - 1)
+    {
+        @* close row*@
+        @Html.Raw("</div>")
+
+        @* reset column *@
+        column = 0;
+    }
+
+    column++;
+
+
+}

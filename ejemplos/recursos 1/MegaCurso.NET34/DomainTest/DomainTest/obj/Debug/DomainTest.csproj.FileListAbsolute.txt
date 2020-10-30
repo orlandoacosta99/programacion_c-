@@ -1,0 +1,4 @@
+c:\docs\MegaCurso.NET34\DomainTest\DomainTest\bin\Debug\DomainTest.dll
+c:\docs\MegaCurso.NET34\DomainTest\DomainTest\bin\Debug\DomainTest.pdb
+c:\docs\MegaCurso.NET34\DomainTest\DomainTest\obj\Debug\DomainTest.dll
+c:\docs\MegaCurso.NET34\DomainTest\DomainTest\obj\Debug\DomainTest.pdb

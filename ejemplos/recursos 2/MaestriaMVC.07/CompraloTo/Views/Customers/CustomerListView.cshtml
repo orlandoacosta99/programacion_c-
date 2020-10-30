@@ -1,0 +1,48 @@
+﻿@model CompraloTo.ViewModels.CustomerListViewModel
+@{
+    ViewBag.Title = "CustomerListView";
+}
+
+
+@Html.ActionLink("Crear nuevo cliente", "Create", null, new { @class="btn btn-primary btn-sm" })
+
+<table class="table table-bordered table-hover table-striped">
+
+    <thead>
+        <tr>
+            <th style="width:200px;"></th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Teléfono</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var customer in Model.Customers)
+        {
+            <tr>
+
+                <td>
+
+                    @Html.ActionLink("Editar", "Edit", new { id = customer.ID }, new { @class="btn btn-xs btn-primary" })
+                    &nbsp;
+                    @Html.ActionLink("Eliminar", "Delete", new { id = customer.ID }, new { @class = "btn btn-xs btn-danger" })
+
+                </td>
+
+                <td>@customer.name</td>
+                <td>@customer.lastName</td>
+                <td>@customer.phone</td>
+                <td>@customer.email</td>
+
+            </tr>
+
+        }
+
+    </tbody>
+
+
+</table>

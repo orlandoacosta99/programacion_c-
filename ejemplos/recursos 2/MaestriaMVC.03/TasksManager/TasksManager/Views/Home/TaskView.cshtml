@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Task without layout</title>
+</head>
+<body>
+
+    <!--<div>Esto va comentado en el cliente</div>-->
+
+    @*<div>Esto va comentado en el servidor</div>*@
+
+
+    @Html.Raw(ViewBag.TestDiv)
+
+</body>
+</html>

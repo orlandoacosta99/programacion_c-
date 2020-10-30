@@ -1,0 +1,5 @@
+c:\docs\MegaCurso.NET30\ElBuenCodigo\ElBuenCodigo\bin\Debug\ElBuenCodigo.exe.config
+c:\docs\MegaCurso.NET30\ElBuenCodigo\ElBuenCodigo\obj\Debug\ElBuenCodigo.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET30\ElBuenCodigo\ElBuenCodigo\obj\Debug\ElBuenCodigo.fMain.resources
+c:\docs\MegaCurso.NET30\ElBuenCodigo\ElBuenCodigo\obj\Debug\ElBuenCodigo.Properties.Resources.resources
+c:\docs\MegaCurso.NET30\ElBuenCodigo\ElBuenCodigo\obj\Debug\ElBuenCodigo.csproj.GenerateResource.Cache

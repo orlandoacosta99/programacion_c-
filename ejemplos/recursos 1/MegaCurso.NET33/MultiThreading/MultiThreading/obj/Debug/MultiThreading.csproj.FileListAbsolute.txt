@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\bin\Debug\MultiThreading.exe.config
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\bin\Debug\MultiThreading.exe
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\bin\Debug\MultiThreading.pdb
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\obj\Debug\MultiThreading.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\obj\Debug\MultiThreading.fMain.resources
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\obj\Debug\MultiThreading.Properties.Resources.resources
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\obj\Debug\MultiThreading.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\obj\Debug\MultiThreading.exe
+c:\docs\MegaCurso.NET33\MultiThreading\MultiThreading\obj\Debug\MultiThreading.pdb

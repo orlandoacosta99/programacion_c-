@@ -1,0 +1,6 @@
+c:\docs\MegaCurso.NET09\MegaCurso.NET09\MegaCurso.NET09\bin\Debug\MegaCurso.NET09.exe.config
+c:\docs\MegaCurso.NET09\MegaCurso.NET09\MegaCurso.NET09\bin\Debug\MegaCurso.NET09.exe
+c:\docs\MegaCurso.NET09\MegaCurso.NET09\MegaCurso.NET09\bin\Debug\MegaCurso.NET09.pdb
+c:\docs\MegaCurso.NET09\MegaCurso.NET09\MegaCurso.NET09\obj\Debug\MegaCurso.NET09.exe
+c:\docs\MegaCurso.NET09\MegaCurso.NET09\MegaCurso.NET09\obj\Debug\MegaCurso.NET09.pdb
+c:\docs\MegaCurso.NET09\MegaCurso.NET09\MegaCurso.NET09\obj\Debug\MegaCurso.NET09.csprojResolveAssemblyReference.cache

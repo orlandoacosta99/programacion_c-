@@ -1,0 +1,46 @@
+﻿@model TasksManager.ViewModels.TaskListViewModel
+@{
+
+    ViewBag.Title = "Lista de tareas";
+
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+<a href="/tasks/new">Crear nueva tarea</a>
+
+
+<table>
+
+    <thead>
+        <tr>
+            <th></th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Create date</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (TaskDTO task in Model.ListOfTasks)
+        {
+            <tr @(task.DueDate < DateTime.Now ? "style=color:red;" : "")>
+                
+                <td>
+
+                    <a href="/tasks/edit/@task.ID">Editar</a>
+                    <a href="/tasks/delete/@task.ID">Eliminar</a>
+
+                </td>
+
+                <td>@task.ID</td>
+                <td>@task.Name</td>
+                <td>@task.CreateDate.ToShortDateString()</td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

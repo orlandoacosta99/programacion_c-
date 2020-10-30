@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59104F8B-3B49-4419-A213-707AC8F43EC1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompraloTo</RootNamespace>
+    <AssemblyName>CompraloTo</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaptchaMvc, Version=2.5.0.0, Culture=neutral, PublicKeyToken=fe46ad421dd3b0e6, processorArchitecture=MSIL">
+      <HintPath>..\packages\CaptchaMvc.Mvc5.1.5.0\lib\net45-full\CaptchaMvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.0.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.Common.3.2.3.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject.Web.Mvc, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.MVC5.3.2.1.0\lib\net45-full\Ninject.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\RazorGenerator.Mvc.2.4.2\lib\net40\RazorGenerator.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <None Include="GruntFile.js" />
+    <Content Include="AccessDenied.html" />
+    <None Include="less\dropzone\basic.less" />
+    <None Include="less\dropzone\dropzone.less" />
+    <None Include="public\css\master.css" />
+    <Content Include="public\css\master.min.css" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\fonts\fontawesome-webfont.svg" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\img\flags\en.png" />
+    <Content Include="public\img\flags\es.png" />
+    <Content Include="public\img\products\en.png" />
+    <Content Include="public\js\libs.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppCode\Cart\CartService.cs" />
+    <Compile Include="AppCode\Cart\CartController.cs" />
+    <Compile Include="AppCode\Common\LogService.cs" />
+    <Compile Include="AppCode\Common\RazorHelpers.cs" />
+    <Compile Include="AppCode\Common\Utils.cs" />
+    <Compile Include="AppCode\Config\ActionAuthorize.cs" />
+    <Compile Include="AppCode\Config\RouteConfig.cs" />
+    <Compile Include="AppCode\Error\ErrorController.cs" />
+    <Compile Include="AppCode\Users\AccountController.cs" />
+    <Compile Include="AppCode\Customers\CustomersController.cs" />
+    <Compile Include="AppCode\Email\EmailController.cs" />
+    <Compile Include="AppCode\Home\HomeController.cs" />
+    <Compile Include="AppCode\Products\ProductsController.cs" />
+    <Compile Include="AppCode\Users\LanguagesDropdownViewModel.cs" />
+    <Compile Include="AppCode\Users\UsersController.cs" />
+    <Compile Include="AppCode\Database\IDbContext.cs" />
+    <Compile Include="AppCode\Database\Mappings\UserMapping.cs" />
+    <Compile Include="AppCode\Domain\User.cs" />
+    <Compile Include="AppCode\Email\Commands.cs" />
+    <Compile Include="AppCode\Email\EmailRenderer.cs" />
+    <Compile Include="AppCode\Email\EmailService.cs" />
+    <Compile Include="AppCode\Users\AccountService.cs" />
+    <Compile Include="AppCode\Users\LoginViewModel.cs" />
+    <Compile Include="AppCode\Email\ActivationEmailViewModel.cs" />
+    <Compile Include="AppCode\Products\CreateUpdateProductViewModel.cs" />
+    <Compile Include="AppCode\Products\ProductCommandService.cs" />
+    <Compile Include="AppCode\Products\ProductDTO.cs" />
+    <Compile Include="AppCode\Products\ProductListDTO.cs" />
+    <Compile Include="AppCode\Products\ProductListViewModel.cs" />
+    <Compile Include="AppCode\Products\ProductQueryService.cs" />
+    <Compile Include="AppCode\Products\Requests.cs" />
+    <Compile Include="AppCode\Customers\CustomerCommandService.cs" />
+    <Compile Include="AppCode\Customers\ICustomerQueryService.cs" />
+    <Compile Include="AppCode\Customers\Requests.cs" />
+    <Compile Include="AppCode\Database\GlobalDbContext.cs" />
+    <Compile Include="AppCode\Database\Mappings\OrderMapping.cs" />
+    <Compile Include="AppCode\Database\Mappings\ProductMapping.cs" />
+    <Compile Include="AppCode\Database\Mappings\CustomerMapping.cs" />
+    <Compile Include="AppCode\Domain\Aggregate.cs" />
+    <Compile Include="AppCode\Domain\Common\BusinessRuleException.cs" />
+    <Compile Include="AppCode\Domain\Common\CONSTANTS.cs" />
+    <Compile Include="AppCode\Domain\Common\Validate.cs" />
+    <Compile Include="AppCode\Domain\Customer.cs" />
+    <Compile Include="AppCode\Domain\Order.cs" />
+    <Compile Include="AppCode\Domain\OrderDetail.cs" />
+    <Compile Include="AppCode\Domain\Product.cs" />
+    <Compile Include="AppCode\Domain\ProductCategory.cs" />
+    <Compile Include="AppCode\Customers\CustomerDTO.cs" />
+    <Compile Include="AppCode\Customers\CustomerListDTO.cs" />
+    <Compile Include="AppCode\Customers\CustomerListViewModel.cs" />
+    <Compile Include="AppCode\Customers\CustomerQueryService.cs" />
+    <Compile Include="AppCode\Dependency\NinjectWebCommon.cs" />
+    <Compile Include="AppCode\Users\Commands.cs" />
+    <Compile Include="AppCode\Users\RegisterViewModel.cs" />
+    <Compile Include="AppCode\Users\UserCommandService.cs" />
+    <Compile Include="AppCode\Users\UserQueryService.cs" />
+    <Compile Include="AppCode\Users\UserDTO.cs" />
+    <Compile Include="AppCode\Common\RazorGeneratorMvcStart.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201512221512527_Initial.cs" />
+    <Compile Include="Migrations\201512221512527_Initial.Designer.cs">
+      <DependentUpon>201512221512527_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601231832313_ProductHighLightedAndUsers.cs" />
+    <Compile Include="Migrations\201601231832313_ProductHighLightedAndUsers.Designer.cs">
+      <DependentUpon>201601231832313_ProductHighLightedAndUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601251821174_UsersEnabled.cs" />
+    <Compile Include="Migrations\201601251821174_UsersEnabled.Designer.cs">
+      <DependentUpon>201601251821174_UsersEnabled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Account\ActivateResult.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActivateResult.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Account\Login.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Login.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Account\Register.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Register.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Account\RegisterSuccess.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegisterSuccess.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customers\CustomerListView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerListView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customers\CustomerView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customers\DeleteView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeleteView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Email\ActivationTemplate.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActivationTemplate.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Email\_LayoutEmail.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_LayoutEmail.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\AccessDenied.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccessDenied.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\GenericError.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenericError.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\InternalError.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InternalError.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\NotFound.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotFound.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\_LayoutError.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_LayoutError.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\HomeView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HomeView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\Create.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Create.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\Delete.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Delete.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\Details.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Details.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\Edit.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Edit.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\ProductsListView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductsListView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Products\ProductsView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductsView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\HeadView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HeadView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\LanguagesDropdown.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguagesDropdown.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\NavHeaderView.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NavHeaderView.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\Scripts.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scripts.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\_Layout.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Layout.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Users\Delete.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Delete.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Users\Details.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Details.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Users\Edit.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Edit.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Users\Index.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Users\Register.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Register.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\_ViewStart.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_ViewStart.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="public\js\libs.min.js.map" />
+    <None Include="Views\web.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Views\_ViewStart.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>_ViewStart.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Shared\_Layout.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>_Layout.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Home\HomeView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>HomeView.generated.cs</LastGenOutput>
+    </None>
+    <Content Include="public\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Views\Shared\HeadView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>HeadView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Shared\NavHeaderView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>NavHeaderView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Customers\CustomerListView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>CustomerListView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Customers\CustomerView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>CustomerView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Customers\DeleteView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>DeleteView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="less\bootstrap\.csscomb.json" />
+    <None Include="less\bootstrap\.csslintrc" />
+    <None Include="less\bootstrap\alerts.less" />
+    <None Include="less\bootstrap\badges.less" />
+    <None Include="less\master.less" />
+    <None Include="less\bootstrap\breadcrumbs.less" />
+    <None Include="less\bootstrap\button-groups.less" />
+    <None Include="less\bootstrap\buttons.less" />
+    <None Include="less\bootstrap\carousel.less" />
+    <None Include="less\bootstrap\close.less" />
+    <None Include="less\bootstrap\code.less" />
+    <None Include="less\bootstrap\component-animations.less" />
+    <None Include="less\bootstrap\dropdowns.less" />
+    <None Include="less\bootstrap\forms.less" />
+    <None Include="less\bootstrap\glyphicons.less" />
+    <None Include="less\bootstrap\grid.less" />
+    <None Include="less\bootstrap\input-groups.less" />
+    <None Include="less\bootstrap\jumbotron.less" />
+    <None Include="less\bootstrap\labels.less" />
+    <None Include="less\bootstrap\list-group.less" />
+    <None Include="less\bootstrap\media.less" />
+    <None Include="less\bootstrap\mixins.less" />
+    <None Include="less\bootstrap\mixins\alerts.less" />
+    <None Include="less\bootstrap\mixins\background-variant.less" />
+    <None Include="less\bootstrap\mixins\border-radius.less" />
+    <None Include="less\bootstrap\mixins\buttons.less" />
+    <None Include="less\bootstrap\mixins\center-block.less" />
+    <None Include="less\bootstrap\mixins\clearfix.less" />
+    <None Include="less\bootstrap\mixins\forms.less" />
+    <None Include="less\bootstrap\mixins\gradients.less" />
+    <None Include="less\bootstrap\mixins\grid-framework.less" />
+    <None Include="less\bootstrap\mixins\grid.less" />
+    <None Include="less\bootstrap\mixins\hide-text.less" />
+    <None Include="less\bootstrap\mixins\image.less" />
+    <None Include="less\bootstrap\mixins\labels.less" />
+    <None Include="less\bootstrap\mixins\list-group.less" />
+    <None Include="less\bootstrap\mixins\nav-divider.less" />
+    <None Include="less\bootstrap\mixins\nav-vertical-align.less" />
+    <None Include="less\bootstrap\mixins\opacity.less" />
+    <None Include="less\bootstrap\mixins\pagination.less" />
+    <None Include="less\bootstrap\mixins\panels.less" />
+    <None Include="less\bootstrap\mixins\progress-bar.less" />
+    <None Include="less\bootstrap\mixins\reset-filter.less" />
+    <None Include="less\bootstrap\mixins\reset-text.less" />
+    <None Include="less\bootstrap\mixins\resize.less" />
+    <None Include="less\bootstrap\mixins\responsive-visibility.less" />
+    <None Include="less\bootstrap\mixins\size.less" />
+    <None Include="less\bootstrap\mixins\tab-focus.less" />
+    <None Include="less\bootstrap\mixins\table-row.less" />
+    <None Include="less\bootstrap\mixins\text-emphasis.less" />
+    <None Include="less\bootstrap\mixins\text-overflow.less" />
+    <None Include="less\bootstrap\mixins\vendor-prefixes.less" />
+    <None Include="less\bootstrap\modals.less" />
+    <None Include="less\bootstrap\navbar.less" />
+    <None Include="less\bootstrap\navs.less" />
+    <None Include="less\bootstrap\normalize.less" />
+    <None Include="less\bootstrap\pager.less" />
+    <None Include="less\bootstrap\pagination.less" />
+    <None Include="less\bootstrap\panels.less" />
+    <None Include="less\bootstrap\popovers.less" />
+    <None Include="less\bootstrap\print.less" />
+    <None Include="less\bootstrap\progress-bars.less" />
+    <None Include="less\bootstrap\responsive-embed.less" />
+    <None Include="less\bootstrap\responsive-utilities.less" />
+    <None Include="less\bootstrap\scaffolding.less" />
+    <None Include="less\bootstrap\tables.less" />
+    <None Include="less\bootstrap\theme.less" />
+    <None Include="less\bootstrap\thumbnails.less" />
+    <None Include="less\bootstrap\tooltip.less" />
+    <None Include="less\bootstrap\type.less" />
+    <None Include="less\bootstrap\utilities.less" />
+    <None Include="less\variables.less" />
+    <None Include="less\bootstrap\wells.less" />
+    <None Include="package.json" />
+    <Content Include="public\css\master.css.map" />
+    <None Include="less\fontawesome\animated.less" />
+    <None Include="less\fontawesome\bordered-pulled.less" />
+    <None Include="less\fontawesome\core.less" />
+    <None Include="less\fontawesome\fixed-width.less" />
+    <None Include="less\fontawesome\font-awesome.less" />
+    <None Include="less\fontawesome\icons.less" />
+    <None Include="less\fontawesome\larger.less" />
+    <None Include="less\fontawesome\list.less" />
+    <None Include="less\fontawesome\mixins.less" />
+    <None Include="less\fontawesome\path.less" />
+    <None Include="less\fontawesome\rotated-flipped.less" />
+    <None Include="less\fontawesome\stacked.less" />
+    <None Include="less\fontawesome\variables.less" />
+    <Content Include="public\fonts\fontawesome-webfont.eot" />
+    <Content Include="public\fonts\fontawesome-webfont.ttf" />
+    <Content Include="public\fonts\fontawesome-webfont.woff" />
+    <Content Include="public\fonts\fontawesome-webfont.woff2" />
+    <Content Include="public\fonts\FontAwesome.otf" />
+    <None Include="Views\Shared\Scripts.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Scripts.generated.cs</LastGenOutput>
+    </None>
+    <None Include=".bowerrc" />
+    <None Include="bower.json" />
+    <None Include="Views\Products\Create.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Create.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Products\Delete.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Delete.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Products\Details.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Details.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Products\Edit.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Edit.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Users\Delete.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Delete.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Users\Details.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Details.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Users\Edit.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Edit.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Users\Index.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Index.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Users\Register.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Register.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Account\Register.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Register.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Account\RegisterSuccess.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>RegisterSuccess.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Email\_LayoutEmail.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>_LayoutEmail.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Email\ActivationTemplate.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>ActivationTemplate.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Account\ActivateResult.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>ActivateResult.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Account\Login.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>Login.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Products\ProductsListView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>ProductsListView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Products\ProductsView.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>ProductsView.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Error\_LayoutError.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>_LayoutError.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Error\GenericError.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>GenericError.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Error\InternalError.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>InternalError.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Error\NotFound.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>NotFound.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Error\AccessDenied.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>AccessDenied.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Shared\LanguagesDropdown.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>LanguagesDropdown.generated.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\PublishProfiles\compraloto.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\js\libs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201512221512527_Initial.resx">
+      <DependentUpon>201512221512527_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601231832313_ProductHighLightedAndUsers.resx">
+      <DependentUpon>201601231832313_ProductHighLightedAndUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601251821174_UsersEnabled.resx">
+      <DependentUpon>201601251821174_UsersEnabled.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CompraloTo.Res\CompraloTo.Res.csproj">
+      <Project>{d44068d8-abf5-4a63-9b16-753289f6a0de}</Project>
+      <Name>CompraloTo.Res</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11191</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5050/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.1.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

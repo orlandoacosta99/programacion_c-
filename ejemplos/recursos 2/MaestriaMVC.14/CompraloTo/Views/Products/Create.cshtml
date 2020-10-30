@@ -1,0 +1,87 @@
+﻿@model CompraloTo.ViewModels.CreateUpdateProductViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@helper PrintTitle(string title)
+{
+    <h4>@title</h4>
+    <hr />
+}
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+
+        @PrintTitle("Crear producto")
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.product.name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-6">
+                @Html.TextBoxFor(model => model.product.name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.product.name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.product.price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.product.price, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.product.price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <hr/>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.product.categoryID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-6">
+                @Html.DropDownListFor(model => model.product.categoryID, Model.categories, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.product.categoryID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <label>
+                    @Html.CheckBoxFor(model => model.product.hightlighted)
+                    @Html.DisplayNameFor(model => model.product.hightlighted)
+                </label>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.product.description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.product.description, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.product.description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <hr />
+
+        @Html.DropZone( m=> m.fileServer, "/products/upload")
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @Html.Submit("Crear")
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", nameof(CompraloTo.Controllers.ProductsController.ProductsView))
+</div>
+

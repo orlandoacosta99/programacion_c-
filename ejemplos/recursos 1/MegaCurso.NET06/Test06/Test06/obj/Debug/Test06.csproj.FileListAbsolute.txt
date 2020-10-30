@@ -1,0 +1,5 @@
+c:\docs\MegaCurso.NET06\Test06\Test06\bin\Debug\Test06.exe.config
+c:\docs\MegaCurso.NET06\Test06\Test06\bin\Debug\Test06.exe
+c:\docs\MegaCurso.NET06\Test06\Test06\bin\Debug\Test06.pdb
+c:\docs\MegaCurso.NET06\Test06\Test06\obj\Debug\Test06.exe
+c:\docs\MegaCurso.NET06\Test06\Test06\obj\Debug\Test06.pdb

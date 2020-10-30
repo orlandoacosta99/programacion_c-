@@ -1,0 +1,6 @@
+c:\docs\MegaCurso.NET14\AdvancedCollections\AdvancedCollections\bin\Debug\AdvancedCollections.exe.config
+c:\docs\MegaCurso.NET14\AdvancedCollections\AdvancedCollections\bin\Debug\AdvancedCollections.exe
+c:\docs\MegaCurso.NET14\AdvancedCollections\AdvancedCollections\bin\Debug\AdvancedCollections.pdb
+c:\docs\MegaCurso.NET14\AdvancedCollections\AdvancedCollections\obj\Debug\AdvancedCollections.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET14\AdvancedCollections\AdvancedCollections\obj\Debug\AdvancedCollections.exe
+c:\docs\MegaCurso.NET14\AdvancedCollections\AdvancedCollections\obj\Debug\AdvancedCollections.pdb

@@ -1,0 +1,9 @@
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\bin\Debug\MegaCurso.NET18.exe.config
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\bin\Debug\MegaCurso.NET18.exe
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\bin\Debug\MegaCurso.NET18.pdb
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\obj\Debug\MegaCurso.NET18.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\obj\Debug\MegaCurso.NET18.fMain.resources
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\obj\Debug\MegaCurso.NET18.Properties.Resources.resources
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\obj\Debug\MegaCurso.NET18.csproj.GenerateResource.Cache
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\obj\Debug\MegaCurso.NET18.exe
+c:\docs\MegaCurso.NET18\MegaCurso.NET18\MegaCurso.NET18\obj\Debug\MegaCurso.NET18.pdb

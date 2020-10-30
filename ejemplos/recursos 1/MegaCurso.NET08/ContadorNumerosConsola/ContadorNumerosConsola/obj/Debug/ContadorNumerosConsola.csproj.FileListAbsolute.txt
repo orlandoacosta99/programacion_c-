@@ -1,0 +1,6 @@
+c:\docs\MegaCurso.NET08\ContadorNumerosConsola\ContadorNumerosConsola\bin\Debug\ContadorNumerosConsola.exe.config
+c:\docs\MegaCurso.NET08\ContadorNumerosConsola\ContadorNumerosConsola\bin\Debug\ContadorNumerosConsola.exe
+c:\docs\MegaCurso.NET08\ContadorNumerosConsola\ContadorNumerosConsola\bin\Debug\ContadorNumerosConsola.pdb
+c:\docs\MegaCurso.NET08\ContadorNumerosConsola\ContadorNumerosConsola\obj\Debug\ContadorNumerosConsola.csprojResolveAssemblyReference.cache
+c:\docs\MegaCurso.NET08\ContadorNumerosConsola\ContadorNumerosConsola\obj\Debug\ContadorNumerosConsola.exe
+c:\docs\MegaCurso.NET08\ContadorNumerosConsola\ContadorNumerosConsola\obj\Debug\ContadorNumerosConsola.pdb

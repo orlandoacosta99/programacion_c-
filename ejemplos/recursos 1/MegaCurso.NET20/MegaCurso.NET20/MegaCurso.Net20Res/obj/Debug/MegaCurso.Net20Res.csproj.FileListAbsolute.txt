@@ -1,0 +1,9 @@
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\bin\Debug\MegaCurso.Net20Res.dll
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\bin\Debug\MegaCurso.Net20Res.pdb
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\bin\Debug\es\MegaCurso.Net20Res.resources.dll
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\obj\Debug\MegaCurso.Net20Res.Resources.resources
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\obj\Debug\MegaCurso.Net20Res.Resources.es.resources
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\obj\Debug\MegaCurso.Net20Res.csproj.GenerateResource.Cache
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\obj\Debug\es\MegaCurso.Net20Res.resources.dll
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\obj\Debug\MegaCurso.Net20Res.dll
+C:\docs\MegaCurso.NET20\MegaCurso.NET20\MegaCurso.Net20Res\obj\Debug\MegaCurso.Net20Res.pdb

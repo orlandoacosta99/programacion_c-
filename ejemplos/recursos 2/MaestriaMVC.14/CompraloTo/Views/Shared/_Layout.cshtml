@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    @Html.Partial("HeadView")
+
+    <link rel="Shortcut Icon" href="~/public/favicon.ico" />
+
+</head>
+
+<body>
+
+    @* Header Nav bar *@
+    @Html.Partial("NavHeaderView")
+
+
+    @* Main container *@
+    <div class="container body-content">
+
+
+        @RenderBody()
+
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - LosMegaCursos.com - CompraloTó</p>
+        </footer>
+
+    </div>
+
+
+    @* Scripts *@
+    @Html.Partial("Scripts")
+
+
+    @* Scripts from page *@
+    @RenderSection("PageScripts", false)
+
+
+    
+</body>
+</html>
