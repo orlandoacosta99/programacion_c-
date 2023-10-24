@@ -1,0 +1,15 @@
+/workspaces/programacion_c-/Ejemplos de terminal/bin/Debug/net7.0/Ejemplos de terminal
+/workspaces/programacion_c-/Ejemplos de terminal/bin/Debug/net7.0/Ejemplos de terminal.deps.json
+/workspaces/programacion_c-/Ejemplos de terminal/bin/Debug/net7.0/Ejemplos de terminal.runtimeconfig.json
+/workspaces/programacion_c-/Ejemplos de terminal/bin/Debug/net7.0/Ejemplos de terminal.dll
+/workspaces/programacion_c-/Ejemplos de terminal/bin/Debug/net7.0/Ejemplos de terminal.pdb
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.csproj.AssemblyReference.cache
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.AssemblyInfoInputs.cache
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.AssemblyInfo.cs
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.csproj.CoreCompileInputs.cache
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.dll
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/refint/Ejemplos de terminal.dll
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.pdb
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/Ejemplos de terminal.genruntimeconfig.cache
+/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/net7.0/ref/Ejemplos de terminal.dll
