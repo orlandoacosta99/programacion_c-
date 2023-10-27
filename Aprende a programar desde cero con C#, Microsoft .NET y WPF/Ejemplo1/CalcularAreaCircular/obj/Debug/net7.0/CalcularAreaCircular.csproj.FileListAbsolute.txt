@@ -1,0 +1,14 @@
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.AssemblyInfoInputs.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.AssemblyInfo.cs
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.csproj.CoreCompileInputs.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\bin\Debug\net7.0\CalcularAreaCircular.exe
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\bin\Debug\net7.0\CalcularAreaCircular.deps.json
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\bin\Debug\net7.0\CalcularAreaCircular.runtimeconfig.json
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\bin\Debug\net7.0\CalcularAreaCircular.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\bin\Debug\net7.0\CalcularAreaCircular.pdb
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\refint\CalcularAreaCircular.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.pdb
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\CalcularAreaCircular.genruntimeconfig.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\CalcularAreaCircular\obj\Debug\net7.0\ref\CalcularAreaCircular.dll

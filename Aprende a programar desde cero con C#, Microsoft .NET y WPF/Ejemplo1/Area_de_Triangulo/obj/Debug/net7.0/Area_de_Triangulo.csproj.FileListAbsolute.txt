@@ -1,0 +1,14 @@
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.AssemblyInfoInputs.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.AssemblyInfo.cs
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.csproj.CoreCompileInputs.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\bin\Debug\net7.0\Area_de_Triangulo.exe
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\bin\Debug\net7.0\Area_de_Triangulo.deps.json
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\bin\Debug\net7.0\Area_de_Triangulo.runtimeconfig.json
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\bin\Debug\net7.0\Area_de_Triangulo.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\bin\Debug\net7.0\Area_de_Triangulo.pdb
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\refint\Area_de_Triangulo.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.pdb
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\Area_de_Triangulo.genruntimeconfig.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Triangulo\obj\Debug\net7.0\ref\Area_de_Triangulo.dll

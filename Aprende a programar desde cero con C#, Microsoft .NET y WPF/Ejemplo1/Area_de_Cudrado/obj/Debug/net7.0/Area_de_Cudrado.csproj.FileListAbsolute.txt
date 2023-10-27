@@ -1,0 +1,14 @@
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\bin\Debug\net7.0\Area_de_Cudrado.exe
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\bin\Debug\net7.0\Area_de_Cudrado.deps.json
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\bin\Debug\net7.0\Area_de_Cudrado.runtimeconfig.json
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\bin\Debug\net7.0\Area_de_Cudrado.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\bin\Debug\net7.0\Area_de_Cudrado.pdb
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.AssemblyInfoInputs.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.AssemblyInfo.cs
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.csproj.CoreCompileInputs.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\refint\Area_de_Cudrado.dll
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.pdb
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\Area_de_Cudrado.genruntimeconfig.cache
+D:\Github\programacion_c-\Aprende a programar desde cero con C#, Microsoft .NET y WPF\Ejemplo1\Area_de_Cudrado\obj\Debug\net7.0\ref\Area_de_Cudrado.dll

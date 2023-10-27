@@ -1,5 +1,0 @@
-/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/netcoreapp3.1/CalcularAreaCircular.csproj.AssemblyReference.cache
-/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/netcoreapp3.1/CalcularAreaCircular.GeneratedMSBuildEditorConfig.editorconfig
-/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/netcoreapp3.1/CalcularAreaCircular.AssemblyInfoInputs.cache
-/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/netcoreapp3.1/CalcularAreaCircular.AssemblyInfo.cs
-/workspaces/programacion_c-/Ejemplos de terminal/obj/Debug/netcoreapp3.1/CalcularAreaCircular.csproj.CoreCompileInputs.cache
